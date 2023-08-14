@@ -72,6 +72,18 @@ public class UserStepDefs {
     }
 
 
+    //US08
+    @When("the user selected status {string}")
+    public void the_user_selected_status(String status) {
 
+    }
+    @When("the gets number of users")
+    public void the_gets_number_of_users() {
+
+    }
+    @Then("verify {string} status users count matching with DB")
+    public void verify_status_users_count_matching_with_db(String status) {
+
+    }
 
 }
