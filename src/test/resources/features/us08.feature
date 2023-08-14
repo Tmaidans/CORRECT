@@ -1,7 +1,7 @@
 @us08
 Feature: Users module
   As a librarian, I should be able to see users by status
-
+@ui
   Scenario: verify user status with DB
     Given the "librarian" on the home page
     And the user navigates to "Users" page
