@@ -38,8 +38,8 @@ where id=(select book_category_id from books
 
 
 -- US08
-select count(*) from users
-where status='INACTIVE';
+select * from users
+where status='ACTIVE' and user_group_id=1;
 
 
 -- how many INACTIVE and ACTIVE users we have

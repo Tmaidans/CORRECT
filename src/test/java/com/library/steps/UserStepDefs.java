@@ -90,7 +90,7 @@ public class UserStepDefs {
     }
     @Then("verify {string} status users count matching with DB")
     public void verify_status_users_count_matching_with_db(String status) {
-        String query="select count(*) from users where status='"+status+"'";
+        String query="select count(*) from users where status='"+status+"' and user_group_id<>1 ";
 
         DB_Util.runQuery(query);
 
